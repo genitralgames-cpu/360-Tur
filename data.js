@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-",
-      "name": "ресепшн",
+      "id": "0-----",
+      "name": "охранный пункт (вход в здание)",
       "levels": [
         {
           "tileSize": 256,
@@ -30,35 +30,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.09532755178200425,
-          "pitch": 0.4740965703217217,
+          "yaw": 2.956764740310632,
+          "pitch": 0.09336924830302884,
           "rotation": 0,
-          "target": "14--"
+          "target": "15-"
         },
         {
-          "yaw": -0.5640574411665966,
-          "pitch": 0.449337819139382,
+          "yaw": -2.3122373103580642,
+          "pitch": 0.43296778436206473,
           "rotation": 0,
-          "target": "12--"
-        },
-        {
-          "yaw": 1.5857471879588116,
-          "pitch": 0.3585463273079217,
-          "rotation": 0,
-          "target": "32---"
-        },
-        {
-          "yaw": -2.788087138045423,
-          "pitch": 0.058437467501196494,
-          "rotation": 0,
-          "target": "2--2--"
+          "target": "10-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "1--2--",
-      "name": "холл 2 этажа ",
+      "id": "1--1",
+      "name": "аэроквантум 1",
       "levels": [
         {
           "tileSize": 256,
@@ -86,17 +74,23 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.09241338626781648,
-          "pitch": 0.39819839759509357,
+          "yaw": -2.5816206970165716,
+          "pitch": 0.3024377751530629,
           "rotation": 0,
-          "target": "2--2--"
+          "target": "14---"
+        },
+        {
+          "yaw": 1.6133519640719882,
+          "pitch": 0.3310281232235752,
+          "rotation": 0,
+          "target": "13--2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2--2--",
-      "name": "холл 2-го этажа",
+      "id": "2---it-",
+      "name": "левое крыло IT-квантум",
       "levels": [
         {
           "tileSize": 256,
@@ -118,122 +112,28 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 3.0470102620236297,
+        "pitch": 0.15494584869612638,
+        "fov": 1.4603136799378278
       },
       "linkHotspots": [
         {
-          "yaw": -0.5181780515782481,
-          "pitch": 0.3576307058120509,
+          "yaw": 1.3708762680156692,
+          "pitch": 0.44701878217617086,
           "rotation": 0,
-          "target": "0-"
+          "target": "31--3--"
         },
         {
-          "yaw": 0.3228076798657824,
-          "pitch": 0.044236165593463994,
+          "yaw": -3.139810377099616,
+          "pitch": 0.7058020677420132,
           "rotation": 0,
-          "target": "21---3-"
-        },
-        {
-          "yaw": 3.137343011117223,
-          "pitch": 0.43599992352698536,
-          "rotation": 0,
-          "target": "1--2--"
-        },
-        {
-          "yaw": -1.5912745350566198,
-          "pitch": 0.38756054079637714,
-          "rotation": 0,
-          "target": "9---"
+          "target": "21-it--1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3--2",
-      "name": "промробоквантум 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.032269326548045,
-          "pitch": 0.28102685618354073,
-          "rotation": 0,
-          "target": "10--3"
-        },
-        {
-          "yaw": -2.4857880250556867,
-          "pitch": 0.2255224736821475,
-          "rotation": 0,
-          "target": "11--1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "4---it-",
-      "name": "левое крыло IT квантум",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -3.121332665942967,
-          "pitch": 0.8104469538516312,
-          "rotation": 0,
-          "target": "24-it--1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "5--3",
+      "id": "3--3",
       "name": "биоквантум 3",
       "levels": [
         {
@@ -256,22 +156,22 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": 2.21901881071755,
-        "pitch": 0.1252757809132845,
-        "fov": 1.5485123366590539
+        "yaw": 2.217298397914184,
+        "pitch": 0.18147300997182647,
+        "fov": 1.4603136799378278
       },
       "linkHotspots": [
         {
-          "yaw": 2.3979110990867376,
-          "pitch": 0.526639550488472,
+          "yaw": 2.4806599381744388,
+          "pitch": 0.4659116086279287,
           "rotation": 0,
-          "target": "6--2"
+          "target": "4--2"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6--2",
+      "id": "4--2",
       "name": "биоквантум 2",
       "levels": [
         {
@@ -294,28 +194,28 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": 1.8503236038786746,
-        "pitch": 0.2299952665465721,
-        "fov": 1.5485123366590539
+        "yaw": 1.292223429283105,
+        "pitch": 0.20821091572080164,
+        "fov": 1.4603136799378278
       },
       "linkHotspots": [
         {
-          "yaw": 1.9843456171008604,
-          "pitch": 0.3644905606780746,
+          "yaw": 1.1066446318824887,
+          "pitch": 0.5642070858298123,
           "rotation": 0,
-          "target": "5--3"
+          "target": "3--3"
         },
         {
-          "yaw": -0.5089573003553092,
-          "pitch": 0.5364045725400484,
+          "yaw": -0.5124616782554909,
+          "pitch": 0.5018764439954673,
           "rotation": 0,
-          "target": "7--1"
+          "target": "5--1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7--1",
+      "id": "5--1",
       "name": "биоквантум 1",
       "levels": [
         {
@@ -338,35 +238,28 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": 2.6873471069292183,
-        "pitch": 0.22194264130301455,
+        "yaw": 2.3391393236781894,
+        "pitch": 0.29750259853564565,
         "fov": 1.4603136799378278
       },
       "linkHotspots": [
         {
-          "yaw": -2.709543385219936,
-          "pitch": 0.39045625389685057,
+          "yaw": -2.692939281483641,
+          "pitch": 0.44580498755553855,
           "rotation": 0,
-          "target": "6--2"
+          "target": "4--2"
         },
         {
-          "yaw": -0.8234848963697665,
-          "pitch": 0.48230024146311834,
+          "yaw": -0.7269753421966989,
+          "pitch": 0.5093760933074112,
           "rotation": 0,
-          "target": "8---"
+          "target": "6---"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 1.9467442139946645,
-          "pitch": -0.22212746414180806,
-          "title": "<ya-tr-span data-index=\"2611-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Title\" data-translation=\"Название\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">биоквантум</ya-tr-span>",
-          "text": "<ya-tr-span data-index=\"2614-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Текст\" data-translation=\"Текст\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">В Биоквантуме осваивают современные методы изучения биологических объектов, учатся работать на современном оборудовании в условиях биологических лабораторий и живой природы Обучающиеся приобщаться к новейшим достижениям в области биологии и биотехнологии, почувствовать себя биологами-инженерами, работающими в современной лаборатории. Освоят основы генной инженерии, микробиологии и микроклонального размножения растений, научаться работать с микроскопами, лабораторной посудой, реактивами. Будут изучать биотехнологию в экологии и Агро промышленности. Разработают проекты в сфере биологии и экологии.</ya-tr-span>"
-        }
-      ]
+      "infoHotspots": []
     },
     {
-      "id": "8---",
+      "id": "6---",
       "name": "левое крыло биоквантум",
       "levels": [
         {
@@ -395,22 +288,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.0983742924895008,
-          "pitch": 0.6259831723855793,
+          "yaw": 0.09649163902354374,
+          "pitch": 0.6745831760329555,
           "rotation": 0,
-          "target": "7--1"
+          "target": "5--1"
         },
         {
-          "yaw": -1.599295427691164,
-          "pitch": 0.4414306001920476,
+          "yaw": -1.5989964512514376,
+          "pitch": 0.31832459123585544,
           "rotation": 0,
-          "target": "9---"
+          "target": "7---"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "9---",
+      "id": "7---",
       "name": "левое крыло приемная",
       "levels": [
         {
@@ -439,22 +332,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.08265521552337063,
-          "pitch": 0.36341372792725046,
+          "yaw": -0.07154462913626602,
+          "pitch": 0.3727864136580141,
           "rotation": 0,
-          "target": "8---"
+          "target": "6---"
         },
         {
-          "yaw": 3.0183655425513445,
-          "pitch": 0.4061025456319136,
+          "yaw": 3.076581423896026,
+          "pitch": 0.31980633934203695,
           "rotation": 0,
-          "target": "2--2--"
+          "target": "17--2-"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "10--3",
+      "id": "8--3",
       "name": "промробоквантум 3",
       "levels": [
         {
@@ -483,22 +376,22 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 2.5626079706021674,
-          "pitch": 0.2890726419354799,
+          "yaw": 2.4743037491788495,
+          "pitch": 0.2483745434975866,
           "rotation": 0,
-          "target": "3--2"
+          "target": "18--2"
         },
         {
-          "yaw": 1.503337393592246,
-          "pitch": 0.28934739168338197,
+          "yaw": 1.5043550887099402,
+          "pitch": 0.2620913975915329,
           "rotation": 0,
-          "target": "11--1"
+          "target": "9--1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "11--1",
+      "id": "9--1",
       "name": "промробоквантум 1",
       "levels": [
         {
@@ -521,42 +414,35 @@ var APP_DATA = {
       ],
       "faceSize": 1520,
       "initialViewParameters": {
-        "yaw": 0.9278995193017288,
-        "pitch": 0.15372950585086897,
-        "fov": 1.4603136799378278
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [
         {
-          "yaw": 0.8121733019375057,
-          "pitch": 0.22854549547076886,
+          "yaw": 1.9151368849048565,
+          "pitch": 0.3141425060737397,
           "rotation": 0,
-          "target": "3--2"
+          "target": "8--3"
         },
         {
-          "yaw": 1.8517611846790327,
-          "pitch": 0.18336643819977105,
+          "yaw": 0.7372508506515985,
+          "pitch": 0.5479484326648425,
           "rotation": 0,
-          "target": "10--3"
+          "target": "18--2"
         },
         {
-          "yaw": -1.7812014451757765,
-          "pitch": 0.47645230266909167,
+          "yaw": -1.7346933712645978,
+          "pitch": 0.4031396194558017,
           "rotation": 0,
-          "target": "12--"
+          "target": "10-"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": 0.0560884326369262,
-          "pitch": -0.153068539063975,
-          "title": "<ya-tr-span data-index=\"2629-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Title\" data-translation=\"Название\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">промробоквантум</ya-tr-span>",
-          "text": "<ya-tr-span data-index=\"2632-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Текст\" data-translation=\"Текст\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">Робототехника – одно из популярных и интересных направлений технического творчества, которое совмещает в себе такие предметные области, как наука, технологии, инжиниринг, искусство и математика. Оно направлено на конструирование и программирование роботов.</ya-tr-span>"
-        }
-      ]
+      "infoHotspots": []
     },
     {
-      "id": "12--",
-      "name": "вход промробоквантум",
+      "id": "10-",
+      "name": "промробоквантум",
       "levels": [
         {
           "tileSize": 256,
@@ -584,161 +470,28 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.19525046058052276,
-          "pitch": 0.5868291343218637,
+          "yaw": 2.2007447709340475,
+          "pitch": 0.4607964692841513,
           "rotation": 0,
-          "target": "11--1"
+          "target": "0-----"
         },
         {
-          "yaw": 1.9825127911423257,
-          "pitch": 0.6586325461799483,
+          "yaw": -2.035012166978065,
+          "pitch": 0.17183814905791728,
           "rotation": 0,
-          "target": "14--"
+          "target": "15-"
         },
         {
-          "yaw": -2.164886761026862,
-          "pitch": 0.1833117396787145,
+          "yaw": -0.11660815809474023,
+          "pitch": 0.6136297092735798,
           "rotation": 0,
-          "target": "0-"
+          "target": "9--1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "13-vrar-",
-      "name": "VR/AR-квантум",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "yaw": 2.1271786807314808,
-        "pitch": 0.22963515423421477,
-        "fov": 1.4603136799378278
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.8948107142528485,
-          "pitch": 0.41217537438327767,
-          "rotation": 0,
-          "target": "20--vrar-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.9986491971659675,
-          "pitch": -0.04995343201854041,
-          "title": "<ya-tr-span data-index=\"2637-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Title\" data-translation=\"Название\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">VR/AR-квантум</ya-tr-span>",
-          "text": "<ya-tr-span data-index=\"2638-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Text\" data-translation=\"Текст\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">В VR/AR-квантуме обучающиеся осваивают объемную визуализацию, работают с виртуальной (VR), дополненной (AR) и смешанной (MR) реальностью. Кванторианцы разрабатывают образовательные приложения, проектируют симуляторы для будущих инженеров, проводят виртуальные туры по культурным и историческим достопримечательностям. Дополненная и виртуальная реальность — особое направление кванториумов, тесно связанное с любым из остальных.</ya-tr-span>"
-        }
-      ]
-    },
-    {
-      "id": "14--",
-      "name": "пост охраны",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-3--",
-      "name": "3 этаж шахматы",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "yaw": 2.2528460446196874,
-        "pitch": 0.0020807995700913295,
-        "fov": 1.4603136799378278
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.6409269945610809,
-          "pitch": 0.3598993012243028,
-          "rotation": 0,
-          "target": "21---3-"
-        },
-        {
-          "yaw": -1.9729388069947866,
-          "pitch": 0.2940678714502507,
-          "rotation": 0,
-          "target": "4---it-"
-        },
-        {
-          "yaw": -2.404636684117893,
-          "pitch": 0.1311659815435391,
-          "rotation": 0,
-          "target": "20--vrar-"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 2.157975260550213,
-          "pitch": -0.21750503929250797,
-          "title": "<ya-tr-span data-index=\"2623-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Title\" data-translation=\"Название\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">шахматы</ya-tr-span>",
-          "text": "<ya-tr-span data-index=\"2624-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Text\" data-translation=\"Текст\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">Шахматы- древняя игра, сочетающая в себе познавательный и развивающий вид деятельности, это мир, где можно творить и наслаждаться самой игрой. Многие родители и педагоги утверждают, что эта игра развивает внимательность, усидчивость, учит ребёнка концентрироваться на поставленной задаче. Но на этом мы не останавливаемся шахматы развивают такие качества личности, как инициативность, способность творчески мыслить и находить нестандартные решения. Шахматы научат анализировать, строить стратегию при выполнении заданий.</ya-tr-span>"
-        }
-      ]
-    },
-    {
-      "id": "16-",
+      "id": "11-",
       "name": "автоквантум",
       "levels": [
         {
@@ -767,23 +520,66 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 0.5861060886418521,
-          "pitch": 0.3109485265127425,
+          "yaw": 0.6413543488301183,
+          "pitch": 0.29610267703144366,
           "rotation": 0,
-          "target": "18---"
+          "target": "12---"
         }
       ],
-      "infoHotspots": [
-        {
-          "yaw": -0.47607174540625863,
-          "pitch": -0.13125776127346,
-          "title": "<ya-tr-span data-index=\"2642-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Title\" data-translation=\"Название\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">автоквантум</ya-tr-span>",
-          "text": "<ya-tr-span data-index=\"2643-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Text\" data-translation=\"Текст\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">Широчайшее развитие автомобильного транспорта, способствуют повышению интереса детей к автомобильному делу, к автомобильной технике. Занимаясь в Автокванте, юные конструкторы получают много полезных сведений и навыков. Они знакомятся с общим устройством автомобиля, с основами его конструкции, изучают принципы работы двигателя и других механизмов на примере автомоделей различной конструкции и масштабов. Строят модели самых различных схем, конструкций, размеров и назначения - от простейших до современных гоночных и управляемых по радио, с которыми участвуют в первенствах и чемпионатах по автомодельному спорту.</ya-tr-span>"
-        }
-      ]
+      "infoHotspots": []
     },
     {
-      "id": "17--2",
+      "id": "12---",
+      "name": "левое крыло автоквантум",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.2758004678516883,
+          "pitch": 0.6660357491473885,
+          "rotation": 0,
+          "target": "11-"
+        },
+        {
+          "yaw": 0.1200905178776317,
+          "pitch": 0.4439687897330096,
+          "rotation": 0,
+          "target": "24---"
+        },
+        {
+          "yaw": -3.114239909446745,
+          "pitch": 0.22995496596028175,
+          "rotation": 0,
+          "target": "14---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13--2",
       "name": "аэроквантум 2",
       "levels": [
         {
@@ -812,591 +608,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.6111415317854476,
-          "pitch": 0.47293341395890387,
+          "yaw": 1.5879220720728568,
+          "pitch": 0.48032297893964504,
           "rotation": 0,
-          "target": "19--1"
+          "target": "1--1"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "18---",
-      "name": "левое крыло автоквантум",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "yaw": -1.3864506749765848,
-        "pitch": 0.03828538901098,
-        "fov": 1.5485123366590539
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.2892558020802838,
-          "pitch": 0.5470338147284632,
-          "rotation": 0,
-          "target": "16-"
-        },
-        {
-          "yaw": -3.1000939715966602,
-          "pitch": 0.3689081044230811,
-          "rotation": 0,
-          "target": "32---"
-        },
-        {
-          "yaw": 0.07366977056189583,
-          "pitch": 0.430117867587823,
-          "rotation": 0,
-          "target": "27---"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "19--1",
-      "name": "аэроквантум 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "yaw": -1.2786484495821107,
-        "pitch": 0.24025059126139503,
-        "fov": 1.4603136799378278
-      },
-      "linkHotspots": [
-        {
-          "yaw": 1.6231727585022018,
-          "pitch": 0.31385036525437293,
-          "rotation": 0,
-          "target": "17--2"
-        },
-        {
-          "yaw": -2.5920162662162696,
-          "pitch": 0.3047926152535929,
-          "rotation": 0,
-          "target": "32---"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": -0.8847914391288683,
-          "pitch": -0.20168979123286945,
-          "title": "<ya-tr-span data-index=\"2606-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Title\" data-translation=\"Название\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">аэроквантум</ya-tr-span>",
-          "text": "<ya-tr-span data-index=\"2607-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Text\" data-translation=\"Текст\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">Аэроквантум посвящен изучению малой беспилотной авиации и получению практических навыков по управлению беспилотными летательными аппаратами (БПЛА). Здесь ребята знакомятся с основными частями беспилотника, осваивают принципы работы и управления мультикопетра, получают навыки проектирования собственных аппаратов. В Аэроквантуме обучающиеся пройдут все этапы жизненного цикла выпуска летательного аппарата, узнают, что такое квадрокоптер, самолет и вертолет, научатся выбирать оптимальные варианты для доставки грузов, организовывать воздушное движение, проводить автономные полеты и внедрять инновационные технологии в авиапромышленность.</ya-tr-span>"
-        }
-      ]
-    },
-    {
-      "id": "20--vrar-",
-      "name": "вход VR/AR-квантум",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.20404132745962933,
-          "pitch": 0.6143558574524555,
-          "rotation": 0,
-          "target": "15-3--"
-        },
-        {
-          "yaw": 2.2173154194622944,
-          "pitch": 0.4557572754161541,
-          "rotation": 0,
-          "target": "13-vrar-"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "21---3-",
-      "name": "лестница на 3 этаж",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1520,
-      "initialViewParameters": {
-        "yaw": 0.6099242633859987,
-        "pitch": 0.20473316226607352,
-        "fov": 1.5485123366590539
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.33427388838158123,
-          "pitch": 0.7080022863443425,
-          "rotation": 0,
-          "target": "2--2--"
-        },
-        {
-          "yaw": 1.6724514998631923,
-          "pitch": -0.06493968850623055,
-          "rotation": 0,
-          "target": "15-3--"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "22-it--2",
-      "name": "IT квантум 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.3867792015133187,
-          "pitch": 0.17888554987628247,
-          "rotation": 0,
-          "target": "24-it--1"
-        },
-        {
-          "yaw": 2.7904417745793744,
-          "pitch": 0.4187304709755555,
-          "rotation": 0,
-          "target": "23-it--3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "23-it--3",
-      "name": "IT квантум 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.04771753473131923,
-          "pitch": 0.4158306917965362,
-          "rotation": 0,
-          "target": "30-it--4"
-        },
-        {
-          "yaw": 1.119746949427201,
-          "pitch": 0.34938331658014476,
-          "rotation": 0,
-          "target": "22-it--2"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "24-it--1",
-      "name": "IT квантум 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "yaw": 2.7586769243799782,
-        "pitch": 0.023530917565601328,
-        "fov": 1.4477214317845801
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.6876397381822272,
-          "pitch": 0.7080889157934429,
-          "rotation": 0,
-          "target": "4---it-"
-        },
-        {
-          "yaw": 2.3177001966906365,
-          "pitch": 0.4724843401974681,
-          "rotation": 0,
-          "target": "22-it--2"
-        },
-        {
-          "yaw": -2.4866742766133463,
-          "pitch": 0.31990107705549065,
-          "rotation": 0,
-          "target": "30-it--4"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 1.8379268402006659,
-          "pitch": -0.12350724268070934,
-          "title": "<ya-tr-span data-index=\"2603-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"IT \" data-translation=\"IT \" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">IT квантум</ya-tr-span>",
-          "text": "<ya-tr-span data-index=\"2593-4\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Получат знания в областях защиты информации и криптографии; научатся работать в команде, овладеют навыками коммуникации и работы с информацией.\" data-translation=\"Учащиеся получат знания в области защиты информации и криптографии, научатся работать в команде, овладеют навыками коммуникации и работы с информацией.\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\" data-selected=\"false\">IT-технологии считаются одним из самых популярных направлений в современной жизни. Это направление для всех, кто любит современные информационные технологии и обладает логическим и творческим мышлением. Информационные технологии помогают делать наш мир лучше и удобнее. IT-квантум направлен на получение обучающимися фундаментальных знаний в области информационных технологий, а также освоение перспективных направлений: интернет вещей (IoT), машинное обучение (ML), блокчейн, информационная безопасность, программирование.</ya-tr-span>"
-        }
-      ]
-    },
-    {
-      "id": "25--3",
-      "name": "хайтек 3",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "yaw": -0.3103216712282162,
-        "pitch": 0.12593323219817876,
-        "fov": 1.5485123366590539
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.4072730847863504,
-          "pitch": 0.4384359818510486,
-          "rotation": 0,
-          "target": "26--4"
-        },
-        {
-          "yaw": -1.8397242594962293,
-          "pitch": 0.5366805203148708,
-          "rotation": 0,
-          "target": "31--1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "26--4",
-      "name": "хайтек 4",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "yaw": 2.2852465864680376,
-        "pitch": 0.4171905349242806,
-        "fov": 1.5485123366590539
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.5330078410252526,
-          "pitch": 0.521734708132696,
-          "rotation": 0,
-          "target": "28--5"
-        },
-        {
-          "yaw": 1.0880997305898052,
-          "pitch": 0.505097236198111,
-          "rotation": 0,
-          "target": "25--3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "27---",
-      "name": "левое крыло хайтек",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "yaw": 3.098364847175665,
-        "pitch": 0.2141070595913206,
-        "fov": 1.5485123366590539
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.7515728926738792,
-          "pitch": 0.4917809539241844,
-          "rotation": 0,
-          "target": "18---"
-        },
-        {
-          "yaw": 3.05899245736192,
-          "pitch": 0.6805312925349725,
-          "rotation": 0,
-          "target": "31--1"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "28--5",
-      "name": "хайтек 5",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "yaw": -2.539631897033921,
-        "pitch": 0.23086423580842386,
-        "fov": 1.5485123366590539
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.3576813720166783,
-          "pitch": 0.6286498450263149,
-          "rotation": 0,
-          "target": "29--2"
-        },
-        {
-          "yaw": -2.628838405902755,
-          "pitch": 0.5551101684070847,
-          "rotation": 0,
-          "target": "26--4"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "29--2",
-      "name": "хайтек 2",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "yaw": 0,
-        "pitch": 0,
-        "fov": 1.5485123366590539
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.32345566180423724,
-          "pitch": 0.40508706386158444,
-          "rotation": 0,
-          "target": "31--1"
-        },
-        {
-          "yaw": -2.0458759555351627,
-          "pitch": 0.5978318065560373,
-          "rotation": 0,
-          "target": "28--5"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "30-it--4",
-      "name": "IT квантум 4",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [
-        {
-          "yaw": -0.26257507748956854,
-          "pitch": 0.4641549421323319,
-          "rotation": 0,
-          "target": "24-it--1"
-        },
-        {
-          "yaw": 2.3278366634352725,
-          "pitch": 0.4965560363368642,
-          "rotation": 0,
-          "target": "23-it--3"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "31--1",
-      "name": "хайтек 1",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        }
-      ],
-      "faceSize": 480,
-      "initialViewParameters": {
-        "yaw": 0.16064016984718954,
-        "pitch": 0.07462710056188371,
-        "fov": 1.5485123366590539
-      },
-      "linkHotspots": [
-        {
-          "yaw": -2.3808283871186084,
-          "pitch": 0.3962809743874036,
-          "rotation": 0,
-          "target": "27---"
-        },
-        {
-          "yaw": 1.5421071936441582,
-          "pitch": 0.24675883318232472,
-          "rotation": 0,
-          "target": "28--5"
-        },
-        {
-          "yaw": -0.07857146145429006,
-          "pitch": 0.2958864155271357,
-          "rotation": 0,
-          "target": "29--2"
-        }
-      ],
-      "infoHotspots": [
-        {
-          "yaw": 0.27746885877054517,
-          "pitch": 0.012017121986215074,
-          "title": "<ya-tr-span data-index=\"2596-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Title\" data-translation=\"Название\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">хайтек</ya-tr-span>",
-          "text": "<ya-tr-span data-index=\"2599-0\" data-translated=\"true\" data-source-lang=\"en\" data-target-lang=\"ru\" data-value=\"Текст\" data-translation=\"Текст\" data-ch=\"0\" data-type=\"trSpan\" style=\"visibility: inherit !important;\">Хайтек – это мастерская, оснащенная высокотехнологичным оборудованием: 3D-принтерами, станками с ЧПУ, лазерным, паяльным и другим современным оборудованием. Именно здесь можно изготовить любое изделие, начиная с фигурки любимого персонажа и заканчивая сложным электронным устройством.</ya-tr-span>"
-        }
-      ]
-    },
-    {
-      "id": "32---",
+      "id": "14---",
       "name": "левое крыло аэроквантум",
       "levels": [
         {
@@ -1425,22 +646,764 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.495449120043988,
-          "pitch": 0.4349260630948173,
+          "yaw": -0.06166015508095413,
+          "pitch": 0.44604782657400754,
           "rotation": 0,
-          "target": "19--1"
+          "target": "15-"
         },
         {
-          "yaw": 3.0585771471168197,
-          "pitch": 0.29076735650793495,
+          "yaw": 3.0664994073614817,
+          "pitch": 0.1801377291575914,
           "rotation": 0,
-          "target": "18---"
+          "target": "12---"
         },
         {
-          "yaw": -0.08158160445518092,
-          "pitch": 0.4979654780572851,
+          "yaw": 1.4517181400970065,
+          "pitch": 0.3091513530380894,
           "rotation": 0,
-          "target": "0-"
+          "target": "1--1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "15-",
+      "name": "ресепшн",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "yaw": 2.4938161786104107,
+        "pitch": 0.10638586221355695,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.027298624706808994,
+          "pitch": 0.5199684604466608,
+          "rotation": 0,
+          "target": "0-----"
+        },
+        {
+          "yaw": 1.564481898819623,
+          "pitch": 0.38400623565619085,
+          "rotation": 0,
+          "target": "14---"
+        },
+        {
+          "yaw": -0.5355771573553234,
+          "pitch": 0.5532679043187887,
+          "rotation": 0,
+          "target": "10-"
+        },
+        {
+          "yaw": -2.6055845830598336,
+          "pitch": 0.18060006353630342,
+          "rotation": 0,
+          "target": "17--2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "16--2--",
+      "name": "холл 2-го этажа",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -3.2594016374787316e-10,
+          "pitch": 0.42404960286073745,
+          "rotation": 0,
+          "target": "17--2-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "17--2-",
+      "name": "холл 2 этажа",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 3.070154982469675,
+          "pitch": 0.3306696177514432,
+          "rotation": 0,
+          "target": "16--2--"
+        },
+        {
+          "yaw": -1.5854848643134698,
+          "pitch": 0.47734511578144634,
+          "rotation": 0,
+          "target": "7---"
+        },
+        {
+          "yaw": -0.5240812241562587,
+          "pitch": 0.3512666806128806,
+          "rotation": 0,
+          "target": "15-"
+        },
+        {
+          "yaw": 0.5166617006893368,
+          "pitch": 0.22064189999166928,
+          "rotation": 0,
+          "target": "20---3-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "18--2",
+      "name": "промробоквантум 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.0519365387664843,
+          "pitch": 0.29091251312398114,
+          "rotation": 0,
+          "target": "8--3"
+        },
+        {
+          "yaw": -2.649527919983443,
+          "pitch": 0.3518008314431942,
+          "rotation": 0,
+          "target": "9--1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "19---vrar-",
+      "name": "левое крыло VR/AR-квантум",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "yaw": 2.239270973727251,
+        "pitch": -0.05144514352756069,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.11503687716097488,
+          "pitch": 0.6718884433263348,
+          "rotation": 0,
+          "target": "31--3--"
+        },
+        {
+          "yaw": 2.084130567215295,
+          "pitch": 0.5928729819876519,
+          "rotation": 0,
+          "target": "32-vrar-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "20---3-",
+      "name": "лестница на 3 этаж",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.36298128631195326,
+          "pitch": 0.554370545724229,
+          "rotation": 0,
+          "target": "17--2-"
+        },
+        {
+          "yaw": 1.6943861404053528,
+          "pitch": -0.14459657232491097,
+          "rotation": 0,
+          "target": "31--3--"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "21-it--1",
+      "name": "IT квантум 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "yaw": 3.0971144550322354,
+        "pitch": 0.04529904230967219,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.540082606201972,
+          "pitch": 0.2605735204545052,
+          "rotation": 0,
+          "target": "27-it--4"
+        },
+        {
+          "yaw": 2.3111281181390737,
+          "pitch": 0.3069159286545826,
+          "rotation": 0,
+          "target": "29-it--2"
+        },
+        {
+          "yaw": -0.87049250435172,
+          "pitch": 0.5242827945451243,
+          "rotation": 0,
+          "target": "2---it-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "22--5",
+      "name": "хайтек 5",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.8043981339873163,
+          "pitch": 0.30941939614275427,
+          "rotation": 0,
+          "target": "28--1"
+        },
+        {
+          "yaw": -0.5152999267472325,
+          "pitch": 0.4428495375319823,
+          "rotation": 0,
+          "target": "23--4"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "23--4",
+      "name": "хайтек 4",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.6845639122146885,
+          "pitch": 0.21308211300060442,
+          "rotation": 0,
+          "target": "22--5"
+        },
+        {
+          "yaw": -1.3774243754792561,
+          "pitch": 0.2439931204610346,
+          "rotation": 0,
+          "target": "25--3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "24---",
+      "name": "левое крыло хайтек",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "yaw": -3.1395306669225906,
+        "pitch": 0.1442078315658364,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.7158210327158425,
+          "pitch": 0.32776822128431604,
+          "rotation": 0,
+          "target": "12---"
+        },
+        {
+          "yaw": 3.0865516534681934,
+          "pitch": 0.6317916772699981,
+          "rotation": 0,
+          "target": "28--1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "25--3",
+      "name": "хайтек 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.6430973290700024,
+          "pitch": 0.4732632471902285,
+          "rotation": 0,
+          "target": "23--4"
+        },
+        {
+          "yaw": -1.385511659111863,
+          "pitch": 0.3488340518365973,
+          "rotation": 0,
+          "target": "26--2"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "26--2",
+      "name": "хайтек 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.030929907127973,
+          "pitch": 0.5419852004333432,
+          "rotation": 0,
+          "target": "25--3"
+        },
+        {
+          "yaw": -0.3050993293979136,
+          "pitch": 0.31314701513068144,
+          "rotation": 0,
+          "target": "28--1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "27-it--4",
+      "name": "IT квантум 4",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.192121349421571,
+          "pitch": 0.5328549849112001,
+          "rotation": 0,
+          "target": "21-it--1"
+        },
+        {
+          "yaw": 2.140865927041898,
+          "pitch": 0.36820046085882296,
+          "rotation": 0,
+          "target": "30-it--3"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "28--1",
+      "name": "хайтек 1",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.1373982602633852,
+          "pitch": 0.18825052350589466,
+          "rotation": 0,
+          "target": "26--2"
+        },
+        {
+          "yaw": 1.7971709449620858,
+          "pitch": 0.2948677949579803,
+          "rotation": 0,
+          "target": "22--5"
+        },
+        {
+          "yaw": -2.3463174887687686,
+          "pitch": 0.4351687985563455,
+          "rotation": 0,
+          "target": "24---"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "29-it--2",
+      "name": "IT квантум 2",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "yaw": -2.548530210640523,
+        "pitch": 0.07261504772253602,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.7027483528672214,
+          "pitch": 0.4313201680197185,
+          "rotation": 0,
+          "target": "30-it--3"
+        },
+        {
+          "yaw": -1.5313907834623333,
+          "pitch": 0.30477696478800276,
+          "rotation": 0,
+          "target": "21-it--1"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "30-it--3",
+      "name": "IT квантум 3",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        }
+      ],
+      "faceSize": 480,
+      "initialViewParameters": {
+        "yaw": 0.6647175008251498,
+        "pitch": 0.09264678502530721,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.1373502638363266,
+          "pitch": 0.3323576090864897,
+          "rotation": 0,
+          "target": "29-it--2"
+        },
+        {
+          "yaw": -0.06084030382395156,
+          "pitch": 0.4228695620569134,
+          "rotation": 0,
+          "target": "27-it--4"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "31--3--",
+      "name": "холл 3 этаж шахматы",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "yaw": 2.690914363516085,
+        "pitch": 0.063128702423068,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.9416218911784586,
+          "pitch": 0.38865040311368837,
+          "rotation": 0,
+          "target": "2---it-"
+        },
+        {
+          "yaw": -2.338482252617027,
+          "pitch": 0.21830329244129665,
+          "rotation": 0,
+          "target": "19---vrar-"
+        },
+        {
+          "yaw": -0.6354471069285594,
+          "pitch": 0.38878723513563607,
+          "rotation": 0,
+          "target": "20---3-"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "32-vrar-",
+      "name": "VR/AR-квантум",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "yaw": 2.3828639313736932,
+        "pitch": 0.10106922002759156,
+        "fov": 1.4603136799378278
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.9313586083341594,
+          "pitch": 0.43887195452252925,
+          "rotation": 0,
+          "target": "19---vrar-"
         }
       ],
       "infoHotspots": []
@@ -1450,7 +1413,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
-    "fullscreenButton": false,
-    "viewControlButtons": true
+    "fullscreenButton": true,
+    "viewControlButtons": false
   }
 };
